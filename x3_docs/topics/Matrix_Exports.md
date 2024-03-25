@@ -10,6 +10,7 @@ install the matrix boards onto the vehicles to using an item to open the menu, e
 | Client        | InstallMatrixOnVehicle          | Installs the matrix boards onto the given vehicle. True if successful                | Vehicle Handle                            | Boolean        |
 | Client        | UninstallMatrixBoardFromVehicle | Uninstalls the matrix board from the given vehicle. True if successful               | Vehicle Handle                            | Boolean        |
 | Client        | SendMatrixBoardMessage          | Sends matrix board UI message to the given vehicle                                   | Vehicle Handle, MatrixUIData, boardIndex? | nil            |
+| Client        | OpenMenu                        | Opens the matrix menu for the current vehicle                                        | N/A                                       | nil            |
 
 ## Types
 
@@ -24,13 +25,13 @@ install the matrix boards onto the vehicles to using an item to open the menu, e
             Name = 'Rear',                     -- Name of the matrix board as it appears in the menu
             Offset = vector3(0.0, -2.1, 0.85), -- Position of the matrix board offset from the center of the vehicle
             Rotation = vector3(0.0, 0.0, 0.0), -- Rotation of the matrix board
-            Togglable = true,                  -- If the matrix board can be toggled on/off
             VisibleByDefault = true,           -- If the matrix board is visible by default
         },
     }
 ```
 
 ### MatrixUIData
+
 ```text
 {
     Text: ['POLICE', 'SCROLLING TEXT'], -- Array of text

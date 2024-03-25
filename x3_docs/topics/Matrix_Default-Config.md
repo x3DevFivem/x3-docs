@@ -5,7 +5,7 @@ Below is the default `config.lua` file.
 
 ```text
 Config = {
-    LoggingLevel = 2,
+    LoggingLevel = 2, -- 0 = Errors, 1 = Warnings, 2 = Infos, 3 = Debug, 4 = Trace (everything)
     TxdName = 'x3_matrixboard', -- No need to change this.
     TxNamePrefix = 'matrix_',   -- No need to change this.
     Commands = {
@@ -23,15 +23,14 @@ Config = {
 }
 
 Config.Vehicles = {
-    [`polexplorer`] = {                            -- Vehicle model name
+    [`police2`] = {                                -- Vehicle model name
         Distance = 75.0,                           -- Distance from the vehicle to start rendering in the matrix boards
-        MatrixBoards = {                           -- List of all matrix board positions
+        MatrixBoards = {                           -- List of all matrix boards
             {
                 Model = `D3s_Matrix`,              -- Model of the matrix board (see config_matrixboards.lua)
-                Name = 'Rear',                     -- Name of the matrix board as it appears in the menu
-                Offset = vector3(0.0, -2.1, 0.85), -- Position of the matrix board offset from the center of the vehicle
+                Name = 'Rear Window',              -- Name of the matrix board as it appears in the menu
+                Offset = vector3(0.0, -1.45, 0.5), -- Position of the matrix board offset from the center of the vehicle
                 Rotation = vector3(0.0, 0.0, 0.0), -- Rotation of the matrix board
-                Togglable = true,                  -- If the matrix board can be toggled on/off
                 VisibleByDefault = true,           -- If the matrix board is visible by default
             },
         }

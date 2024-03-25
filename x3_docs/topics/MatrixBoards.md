@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
-- [ox_lib](https://overextended.dev/ox_lib)
+<include from="Matrix_Installation.md" element-id="matrix_prerequisites"></include>
 
 ## Description
 
@@ -13,6 +13,7 @@ ability to change the text, change the color, install/uninstall specific boards 
 
 ## Features
 
+- Custom 3d model
 - Allows for many matrix boards on a single vehicle, each being toggleable.
 - When text becomes too large to show, text will begin to scroll
     - Configurable scroll speed
@@ -31,8 +32,13 @@ ability to change the text, change the color, install/uninstall specific boards 
 
 ## Links
 
-- [Store](https://fivem.x3.dev)
+- [Store](https://fivem.x3.dev/package/6190854)
 - [Documentation](https://docs.fivem.x3.dev/matrixboards.html)
+- [Demo](https://youtu.be/ri3IBbRGBiw)
+
+<procedure>
+<video preview-src="matrix_banner_single.png" src="https://youtu.be/ri3IBbRGBiw"></video>
+</procedure>
 
 |                       |         |
 |-----------------------|---------|
