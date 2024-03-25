@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="4fad9e33">
+        <description>Created after removal of "Empty MD Topic" from x3 Docs</description>
+        <accepts>Empty-MD-Topic.html</accepts>
+    </rule>
+    <rule id="1a3c26a3">
+        <description>Created after removal of "Starter" from x3 Docs</description>
+        <accepts>Starter.html</accepts>
+    </rule>
+</rules>
