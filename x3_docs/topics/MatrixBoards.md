@@ -23,7 +23,21 @@ ability to change the text, change the color, install/uninstall specific boards 
 - Exports to allow you to create your own installation system
 - Any text color can be used
 - Exposed methods to allow you to define logic for who can use the matrix board menu.
+- Emoji Support
 
 ## Credits
 
 - [D3lta Development Studios](https://discord.gg/5juPxXNZ8t) For providing the 3D models and textures
+
+## Links
+
+- [Store](https://fivem.x3.dev)
+- [Documentation](https://docs.fivem.x3.dev/matrixboards.html)
+
+|                       |         |
+|-----------------------|---------|
+| Code is accessible    | Partial |
+| Subscription-based    | No      |
+| Lines (approximately) | ~1200   |
+| Requirements          | ox_lib  |
+| Support               | Yes     |
