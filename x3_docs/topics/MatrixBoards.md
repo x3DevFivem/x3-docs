@@ -40,10 +40,10 @@ ability to change the text, change the color, install/uninstall specific boards 
 <video preview-src="matrix_banner_single.png" src="https://youtu.be/ri3IBbRGBiw"></video>
 </procedure>
 
-|                       |         |
-|-----------------------|---------|
-| Code is accessible    | Partial |
-| Subscription-based    | No      |
-| Lines (approximately) | ~1200   |
-| Requirements          | ox_lib  |
-| Support               | Yes     |
+|                       |                 |
+|-----------------------|-----------------|
+| Code is accessible    | Partial         |
+| Subscription-based    | No              |
+| Lines (approximately) | ~1200           |
+| Requirements          | ox_lib, OneSync |
+| Support               | Yes             |
