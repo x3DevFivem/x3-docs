@@ -5,6 +5,7 @@ follow the installation steps below
 
 <procedure title="Prerequisites" id="matrix_prerequisites">
 <list>
+<li><a href="https://docs.fivem.net/docs/scripting-reference/onesync/">OneSync</a></li>
 <li><a href="https://overextended.dev">ox_lib</a></li>
 </list>
 </procedure>
