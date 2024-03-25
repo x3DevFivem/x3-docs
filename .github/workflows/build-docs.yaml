@@ -5,6 +5,10 @@ on:
     branches: ["master"]
   workflow_dispatch:
 
+permissions:
+  id-token: write
+  pages: write
+
 env:
   INSTANCE: 'x3_docs/x3_docs'
   ARTIFACT: 'webHelpX3_DOCS2-all.zip'
