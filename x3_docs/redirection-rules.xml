@@ -14,4 +14,12 @@
         <description>Created after removal of "Starter" from x3 Docs</description>
         <accepts>Starter.html</accepts>
     </rule>
+    <rule id="3ea64de6">
+        <description>Created after removal of "Overview" from x3 Docs</description>
+        <accepts>Overview.html</accepts>
+    </rule>
+    <rule id="2a9ebbc2">
+        <description>Created after removal of "Adding Another Vehicle" from x3 Docs</description>
+        <accepts>Matrix_Adding-Another-Vehicle.html</accepts>
+    </rule>
 </rules>

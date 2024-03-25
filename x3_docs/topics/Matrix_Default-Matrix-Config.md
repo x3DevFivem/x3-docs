@@ -1,4 +1,5 @@
 # Default Matrix Config
+{id="matrix_boards_default_config" title="Matrix Boards Default Config"}
 
 Below is the default `config_matrixboards.lua` file.
 

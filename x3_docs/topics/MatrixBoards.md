@@ -3,10 +3,27 @@
 ![banner](matrix_banner_single.png)
 
 ## Prerequisites
+
 - [ox_lib](https://overextended.dev/ox_lib)
 
 ## Description
-This Matrix Board resource provides a way to allow police, (or any job) to install matrix boards onto vehicles, with the ability to change the text, change the color, install/uninstall specific boards on the vehicle.
+
+This Matrix Board resource provides a way to allow police, (or any job) to install matrix boards onto vehicles, with the
+ability to change the text, change the color, install/uninstall specific boards on the vehicle.
+
+## Features
+
+- Allows for many matrix boards on a single vehicle, each being toggleable.
+- When text becomes too large to show, text will begin to scroll
+    - Configurable scroll speed
+- Auto text centering
+- 2 fonts available (DOT & SQUARE)
+- Emissive textures (glowing text in dark)
+- Configurable text switching speed
+- Exports to allow you to create your own installation system
+- Any text color can be used
+- Exposed methods to allow you to define logic for who can use the matrix board menu.
 
 ## Credits
+
 - [D3lta Development Studios](https://discord.gg/5juPxXNZ8t) For providing the 3D models and textures

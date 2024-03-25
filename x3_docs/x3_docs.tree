@@ -8,11 +8,12 @@
 
     <toc-element topic="Home.md"/>
     <toc-element topic="MatrixBoards.md">
-        <toc-element topic="Installation.md"/>
-        <toc-element topic="Config.md">
-            <toc-element topic="Default-Config.md"/>
-            <toc-element topic="Default-Matrix-Config.md"/>
+        <toc-element topic="Matrix_Installation.md"/>
+        <toc-element topic="Matrix_Config.md">
+            <toc-element topic="Matrix_Default-Config.md"/>
+            <toc-element topic="Matrix_Default-Matrix-Config.md"/>
         </toc-element>
-        <toc-element topic="Exports.md"/>
+        <toc-element topic="Matrix_Exports.md"/>
+        <toc-element topic="Matrix_Changing-Font.md"/>
     </toc-element>
 </instance-profile>

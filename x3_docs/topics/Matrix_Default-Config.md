@@ -1,4 +1,5 @@
 # Default Config
+{id="matrix_default_config"}
 
 Below is the default `config.lua` file.
 
