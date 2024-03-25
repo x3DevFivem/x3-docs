@@ -4,8 +4,9 @@
 
 <instance-profile id="x3_docs"
                  name="x3 Docs"
-                 start-page="MatrixBoards.md">
+                 start-page="Home.md">
 
+    <toc-element topic="Home.md"/>
     <toc-element topic="MatrixBoards.md">
         <toc-element topic="Installation.md"/>
         <toc-element topic="Config.md">
