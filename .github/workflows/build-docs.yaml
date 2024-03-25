@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  INSTANCE: 'x3_docs'
+  INSTANCE: './x3_docs'
   ARTIFACT: 'webHelpX3_DOCS2-all.zip'
   DOCKER_VERSION: '233.14938'
 
