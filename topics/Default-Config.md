@@ -2,7 +2,7 @@
 
 Below is the default `config.lua` file.
 
-```lua
+```text
 Config = {
     LoggingLevel = 2,
     TxdName = 'x3_matrixboard', -- No need to change this.

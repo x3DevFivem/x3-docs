@@ -6,7 +6,7 @@ Below is the default `config_matrixboards.lua` file.
 > 
 {style="note" title="Note"}
 
-```lua
+```text
 -- Ignore this file if you don't know what you're doing.
 
 local function DefaultSettingsDialogFunc(currentSettings)
